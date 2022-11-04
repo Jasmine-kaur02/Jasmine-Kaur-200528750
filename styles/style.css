@@ -1,0 +1,6 @@
+@import url('./layout.css');
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
