@@ -1,0 +1,132 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Document</title>
+    <style>
+        main{
+            display: flex;
+            flex-direction: row;
+            margin:0px 0px;
+            padding: 0px 0px;
+            gap: 1em;
+            justify-content: center;
+            width: 70%;
+            order:1;
+            
+
+        }
+       
+
+        section{
+           
+    
+            padding: 1em;
+            justify-content: center;
+            display: flex;
+        }
+       
+        .aside{
+            width: 30%;
+            order:2;
+            left: 1200px;
+            position: absolute;
+        }
+        .content{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 1%;
+            
+        }
+        article{
+            border: 1px solid black;
+            display: block;
+        }
+       
+        .rate{
+            background-color: black;
+            color: wheat ;
+            padding: 1em;
+            text-align: center;
+            
+
+        }
+        footer::before{
+            background-image: url("./images/charlie-harris-U20fx1ZOAIg-unsplash.jpg");
+            position: absolute;
+
+        }
+        #footer-option-2{
+            background-image: url(./images/footer.jpg);
+            padding: 30px;
+            text-align: center;
+            justify-content: center;
+        }
+        .aside{
+            border: 1px solid black;
+        }
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        
+    </style>
+   
+</head>
+
+<body id="layout-option-1">
+    <!-- MAIN NAVIGATION -->
+    <nav id="main-navigation-option-2"><img src="./stubs/example-main-navigation-option-2.png" alt="placeholder"></nav>
+
+    <!-- HEADER -->
+    <header id="header-option-1"><img src="./stubs/example-header-option-1.png" alt="placeholder"></header>
+
+    <div class="content">
+        <!-- MAIN -->
+       
+            <main>
+                <section>
+                <article id="allphotos">
+                    <img class="photo1" src="https://via.placeholder.com/200x200" alt="placeholder">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, sunt magni? Praesentium.</p>
+                    <footer class="rate">$17.35</footer>
+
+                </article>
+                <article>
+                    <img class="photo2" src="https://via.placeholder.com/200x200" alt="placeholder">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, sunt magni? Praesentium.</p>
+                    <footer class="rate">$17.35</footer>
+
+                </article>
+                <article>
+                    <img class="photo3" src="https://via.placeholder.com/200x200" alt="placeholder">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, sunt magni? Praesentium.</p>
+                    <footer class="rate">$17.35</footer>
+
+                </article>
+                </section>
+
+        </main>
+        <div class="aside">
+
+        <!-- ASIDE -->
+        <aside id="aside-option-3">
+          <h1>Lorem ipsum</h1> 
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, fugit! Deleniti cum id quod, mollitia dolor voluptates harum nesciunt a repellendus illum tenetur</p>
+        </aside>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer id="footer-option-2">
+        <p>©2022 Shaun McKinnon</p>
+    </footer>
+
+</body>
+
+</html>
